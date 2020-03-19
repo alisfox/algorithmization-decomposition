@@ -5,10 +5,10 @@ public class Main {
 	/*
 	 * 2. Algorithmization:
 	 * 
-	 * Декомпозиция с использованием методов (подпрограммы)
+	 * Р”РµРєРѕРјРїРѕР·РёС†РёСЏ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РјРµС‚РѕРґРѕРІ (РїРѕРґРїСЂРѕРіСЂР°РјРјС‹)
 	 * 
-	 * 11. Написать метод(методы), определяющий, в каком из данных двух чисел больше
-	 * цифр.
+	 * 11. РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(РјРµС‚РѕРґС‹), РѕРїСЂРµРґРµР»СЏСЋС‰РёР№, РІ РєР°РєРѕРј РёР· РґР°РЅРЅС‹С… РґРІСѓС… С‡РёСЃРµР» Р±РѕР»СЊС€Рµ
+	 * С†РёС„СЂ.
 	 * 
 	 */
 
@@ -53,15 +53,15 @@ public class Main {
 	static void compareWholeNumbers(int x, int y) {
 
 		if (findCountDigitsNumber(x) > findCountDigitsNumber(y)) {
-			System.out.println("Число " + x + " содержит больше цифр " + "(" + findCountDigitsNumber(x) + "), чем " + y
+			System.out.println("Р§РёСЃР»Рѕ " + x + " СЃРѕРґРµСЂР¶РёС‚ Р±РѕР»СЊС€Рµ С†РёС„СЂ " + "(" + findCountDigitsNumber(x) + "), С‡РµРј " + y
 					+ " (" + findCountDigitsNumber(y) + ").");
 		}
 		if (findCountDigitsNumber(y) > findCountDigitsNumber(x)) {
-			System.out.println("Число " + y + " содержит больше цифр " + "(" + findCountDigitsNumber(y) + "), чем " + x
+			System.out.println("Р§РёСЃР»Рѕ " + y + " СЃРѕРґРµСЂР¶РёС‚ Р±РѕР»СЊС€Рµ С†РёС„СЂ " + "(" + findCountDigitsNumber(y) + "), С‡РµРј " + x
 					+ " (" + findCountDigitsNumber(x) + ").");
 		}
 		if (findCountDigitsNumber(y) == findCountDigitsNumber(x)) {
-			System.out.println("Число " + y + " и " + x + " содержат одинаковое количество цифр "
+			System.out.println("Р§РёСЃР»Рѕ " + y + " Рё " + x + " СЃРѕРґРµСЂР¶Р°С‚ РѕРґРёРЅР°РєРѕРІРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С†РёС„СЂ "
 					+ findCountDigitsNumber(y) + ".");
 		}
 
